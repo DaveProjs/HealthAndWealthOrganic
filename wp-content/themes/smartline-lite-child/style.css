@@ -1,0 +1,118 @@
+/**
+ * Theme Name:     Smartline Lite Child
+ * Author:         CodeDeveloper
+ * Template:       smartline-lite
+ * Text Domain:	   smartline-lite-child
+ * Description:    Smartline Lite is a perfect theme for news and magazine websites as well as simple blogs. The responsive design with bold colors and smart lines looks great on any device. The main highlight of Smartline is the flexible and widgetized front page template which allows you to create a magazine-styled homepage with ease.
+ * Theme URI:      http://CodeDevelopers.org
+ * Author
+ * URI:
+ * http://CodeDevelopers.org
+ * Version:
+ * 1.0
+ */
+
+/*Coor swaping #004488 ->  #4a8647  green dark  */
+ a, a:link, a:visited{ color: #4a8647;}
+ #header-wrap { border-top: 4px solid #4a8647; }
+ #logo .site-title { color: #4a8647; }
+ #logo .site-title a:visited { color: #4a8647; }
+ #navi-wrap { border-top: 1px solid #4a8647;
+             border-bottom: 1px solid #4a8647;
+ }
+ #mainnav { background: #4a8647;}
+ .main-navigation-menu { background: #4a8647; }
+ .widgettitle { background: #4a8647;}
+ .widgettitle {	border: 1px solid #4a8647;  }
+ .widget a:link, .widget a:visited  { color: #4a8647;  }
+ .page-title, .entry-title { color: #4a8647;  }
+ .entry-title a:link, .entry-title a:visited { 	color: #4a8647;  }
+ .archive-title span{ color: #4a8647;  }
+ .post-pagination a { color: #4a8647;  }
+.post-pagination a:link, .post-pagination a:visited {	color: #4a8647;  }
+ .post-pagination .current { background: #4a8647; }
+ .infinite-scroll #infinite-handle span { 	background: #4a8647;  }
+ #image-nav .nav-previous a, #image-nav .nav-next a { color: #4a8647;  }
+ /* Block Text Colors */
+.has-primary-color {	color: #4a8647;}
+ .has-primary-background-color { 	background-color: #4a8647;  }
+ #frontpage-magazine-widgets .widget .widgettitle {	background: #4a8647;
+	border: 1px solid #4a8647;
+}
+#footer {	background: #4a8647; }
+#mainnav-toggle {	background: #4a8647; }
+
+ .main-navigation-menu { background: #4a8647;  }
+ .main-navigation-menu a { background: #4a8647;  }
+ .main-navigation-menu ul { background: #4a8647;  }
+ 
+
+/* Color swapping  #303030  -> #a8cf5f  greenish yellow   */
+.main-navigation-menu a:hover { 	background: #a8cf5f;  } 
+.main-navigation-menu ul {	background: #a8cf5f; } 
+ blockquote {	border-left: 4px solid #a8cf5f;}
+blockquote cite,blockquote small {	display: block; margin-top: 1em; 	color: #a8cf5f; }
+.has-black-color {	color: #a8cf5f;  } 
+.has-black-background-color {	background-color: #a8cf5f; }
+#mainnav-toggle:hover {		background: #a8cf5f; 	}
+.main-navigation-menu li.menu-item:hover a {	background: #a8cf5f;  }
+
+/* section#content.primary{padding: 0 0.8em 0;} /*2em 1em 0*/
+
+ /*Home Page*/
+body.page-id-7 section#content.primary{ padding: 0 1em 0;  }
+body.page-id-7 h1.page-title{display:none;}
+ 
+ 
+/* Other styles */ 
+#logo p.site-title > a {margin-left:86px;} 
+#logo p.site-description{  text-align: center; }
+header#header.clearfix {padding:10px; /* !important 2.5em*/}
+header#header .search-field {
+  display: inline-block;
+padding: 0 0 0.9em 0;}  /*0.7em 45px 0.7em 0.7em;*/
+
+#wrapper {
+    max-width: 98.5%; /*1340px;*/
+    width: 98%; /*92%;*/
+    margin:5px auto; /*2em auto; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;*/
+}
+ p.site-title a, p.site-description { top: 25px; position: relative; }
+ p.site-title a { margin-left: 14px;
+}
+.home {  border-bottom: #4A8647 solid 4px;
+    width: 100%;
+    display: block;
+}
+div.elementor-108{  background-color: #f5fff5; }
+.entry p{    font-size: larger;
+    line-height: 1.8em;
+}
+
+aside#block-8, aside#block-10, aside#block-13{ background:#4A8647;  margin-bottom:0px; }
+               aside#block-10, aside#block-13{margin-top:20px;}
+aside#block-8>h2, aside#block-10>h2, aside#block-13>h2{ color:white; font-size:large; font-weight:bolder;}
+
+adide ul strong{
+    font-weight: lighter;
+}
+.widget ul {font-size: 1.03em;
+    list-style-type: disclosure-closed;
+    line-height: 2em;}
+
+aside#block-15>span {font-size:normal; line-height:2em; }
+
+button#btnSend { background-color:#4A8647}
+
+#footer #footer-text {
+    float: none;
+    text-align: center;
+    font-size:0.70em;
+}
+#footer-text .copy{float:left;}
+#footer-text .dev{float:right;}
+
